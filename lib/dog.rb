@@ -1,6 +1,6 @@
 class Dog
-  def name
-    name=Dog.new
+  def initialize(name)
+    @name=Dog.new
   end
   def bark
     puts "woof!"
